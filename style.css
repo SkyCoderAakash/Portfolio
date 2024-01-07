@@ -1,0 +1,668 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* overflow-x: hidden; */
+    background-color: rgb(34, 25, 2)
+}
+
+.btn{
+    background-color: rgb(34, 25, 2);
+    width: fit-content;
+    margin: .5rem;
+    padding: .5rem;
+    border: none;
+    border: 1px solid rgb(255, 196, 0);
+    border-radius: 1rem;
+    color: rgb(255, 196, 0);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(27, 4, 38); 
+}
+
+/* css start for header or navbar */
+
+.header{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(34, 25, 2);
+    position: sticky;
+    border-bottom: 2px solid rgb(54, 54, 54);
+}
+
+.header .headerLogo{
+    border: 2px solid white;
+    border-radius: 100px;
+    height:fit-content;
+    overflow: hidden;
+    margin: 1rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .headerLogo img{
+    background-size: cover;
+    width: 2.5rem;
+}
+
+.header .navList ul{
+    display: flex;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.header .navList ul li {
+    background-color: rgb(34, 25, 2);
+    color: white;
+    cursor: pointer;
+    padding: 0px 2rem;
+    background-color:rgb(34, 25, 2);
+    list-style: none;
+}
+.header .navList ul li  a:hover{
+    color: rgb(186, 169, 169);
+}
+
+.header .Btn{
+    margin: 0 2rem;
+    background-color: rgb(34, 25, 2);
+}
+.header .Btn img{
+    width: 1.5rem;
+    padding: .5rem;
+    border-radius:100% ;
+    display: none;
+}
+
+/* css end for header or navbar */
+/* css for herosection */
+.heroSection{
+    background-color: rgb(34, 25, 2);
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    justify-content: space-around;
+}
+.heroSection .rigth{
+    width: 45%;
+    margin: 6% 0 4% 0%;
+}
+.heroSection .left{
+    width: 55%;
+    margin: 6% 0 4% 0%;
+}
+.heroSection .heroDiv{
+    background-color: rgb(34, 25, 2);
+    color: rgb(202, 202, 202);
+    font-family: sans-serif;   
+}
+.heroSection .left .content{
+    width: 80%;
+}
+
+.heroSection .left .content .about{
+    font-size: 1.5rem;
+    word-spacing: 2px;
+    letter-spacing: .8px;
+    margin-top: 1rem ;
+}
+.heroSection .rigth video{
+    width: 70%;
+    height: 15rem;
+    border: 2px solid rgb(255, 196, 0);
+    margin-left: 18%;
+    margin-top: 5%;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgb(250, 197, 22);
+}
+.heroSection .left p{
+    color: white;
+    font-size: 35px;    
+    margin-left: 15%;
+}
+.heroSection .left p .special{
+    color: rgb(255, 196, 0);
+    font-size: 45px;
+    font-weight: 600;
+}
+/* CSS end for Hero scrtion  */
+/* CSS start for body */
+
+.body{
+    font-family: sans-serif;
+    margin: 0rem 5rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-bottom: 2rem;
+}
+/* CSS of skill section */
+.heading{
+    font-size: 1.25rem;
+    padding: 2rem 0rem;
+    color: white;
+}
+.heading p{
+    margin-top: 1.2rem;   
+}
+.skills .skillsDiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.skills .skillsDiv .SkillContanier{
+    width: 30%;
+    height: 15rem;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgb(250, 197, 22);
+}
+.skills .skillsDiv .SkillContanier .skillHeading{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.skills .skillsDiv .SkillContanier .skillList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.skills .skillsDiv .SkillContanier .skillList .skillItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: rgb(241, 236, 236);
+    border: 1px solid rgb(120, 118, 111);
+    border-radius: 5px;
+    padding: .5rem;
+}
+.skills .skillsDiv .SkillContanier .skillList .skillItem img{
+    width: 1.5rem;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+/* CSS for education section */
+.education .educationDetail{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.education .educationDetail .main{
+    width: 60%;
+    height: fit-content;
+    margin: 1rem;
+    overflow: hidden;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgb(250, 197, 22);
+}
+.education .educationDetail .main .upperDiv{
+    display: flex;
+    padding: 1rem 1.5rem;
+}
+.education .educationDetail .main .upperDiv .img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 2.5px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.education .educationDetail .main .upperDiv .detail{
+    padding-left: 1rem;
+}
+.education .educationDetail .main .upperDiv .detail h2{
+    color: rgb(225, 218, 218);
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+}
+.education .educationDetail .main .upperDiv .detail h4{
+    color: rgb(141, 126, 126);
+    font-size: small;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+.education .educationDetail .main .info{
+    padding: 0rem 1rem 1rem 1rem;
+    color: rgb(141, 126, 126);
+    font-size: small;
+    letter-spacing: .75px;
+    word-spacing: 0.5px;
+}
+/* CSS END for education section */
+/* CSS for Projects sections */
+.projects .projectContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+}
+.projects .projectContainer .projectItem{
+    width: 25%;
+    height: 30rem;
+    margin: 1.5rem;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgb(250, 197, 22);
+    overflow: hidden;
+}
+.projects .projectContainer .projectItem img{
+    width: 100%;
+    height: 10rem;
+    background-color: wheat;
+}
+.projects .projectContainer .projectItem .content{
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+.projects .projectContainer .projectItem .content .langauages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.projects .projectContainer .projectItem .content .langauages .item{
+    border-radius: 5px;
+    color: rgb(255, 196, 0);
+    background-color:rgb(245, 198, 43,0.2);
+    padding: 0.25rem 0.75rem;
+    margin: 5px;
+}
+.projects .projectContainer .projectItem .content .detail h2{
+    margin: 1rem 0;
+    color: white;
+}
+.projects .projectContainer .projectItem .content .detail p{
+    color: rgb(219, 209, 209);
+    /* overflow-wrap: ; */
+    letter-spacing: 0.5px;
+}
+/* CSS END for Projects sections */
+/* CSS start for Contact section */
+.contact{
+    font-family: sans-serif;
+    
+}
+.contact .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact .form .wrepper{
+    margin: 1rem 0;
+    width: 32.5%;
+    padding: 1rem 1.75rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgb(250, 197, 22);
+}
+.contact .form .wrepper h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.contact .form .wrepper form input{
+    width: 91%;
+    height: 1.75rem;
+    padding: .25rem 1rem;
+    margin: .75rem 0;
+    font-size: 1.25rem;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+    background-color:  rgb(255, 196, 0, 0.05);
+    border: 1px solid rgb(84, 82, 73);
+    border-radius: .5rem;
+}
+.contact .form .wrepper form button{
+    width: 99%;
+    font-size: 1.5rem;
+    background-color:  rgb(255, 196, 0, 0.05);
+    border: 1px solid rgb(84, 82, 73);
+    border-radius: .5rem;
+    margin-top: .5rem;
+    height: 2.25rem;
+    background-color:rgba(255, 197, 5, 0.817);
+    cursor: pointer;
+}
+/* CSS end for Contact section */
+/* CSS end for Footer section */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    font-family:sans-serif;
+}
+.footer .footerDiv{
+    width: 50%;
+    margin: 5rem 0 2rem 0;
+    /* background-color: white; */
+}
+.footer .footerDiv h1{
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(255, 196, 0);
+}
+.footer .footerDiv div ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.footer .footerDiv div ul li{
+    font-size: 1.25rem;
+    padding:  1.5rem 2rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    list-style: none;
+}
+.footer .footerDiv h4{
+    text-align: center;
+    padding-top: .75rem;
+    color: rgb(119, 119, 119);
+    font-weight: lighter;   
+}
+/* CSS end for Footer section */
+
+
+/* media query or navbar */
+@media (max-width:1140) and (min-width:870){
+    .header .headerLogo{
+        border: 1.5px solid white;
+        margin: 1rem 4rem;
+    }
+    .header .headerLogo img{
+        width: 2.5rem;
+    }
+    .header .Btn{
+        display: inline-flex;
+        margin: 0 2rem;
+    }
+    .btn{
+        margin: .35rem;
+        padding: .35rem;
+        border-radius: 1rem;
+        width: fit-content;
+    }
+    .header .navList ul{
+        font-size: 1.6rem;
+    }
+    .header .navList ul li{
+        padding: 0 1.25rem;  
+    }
+    .heroSection .left .content{
+        padding: 0 5%;
+        width: 87.5%;
+    }
+    .heroSection .rigth video{
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 80%;
+        height: 15rem;
+    }
+    .heroSection .left .content .about{
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 20px;
+        word-spacing: 1.2px;
+    }
+    .heroSection .left p{
+        font-size: 33px;    
+        margin:2% 0 0 5%;
+    }
+    .heroSection .left p .special{
+        font-weight: 600;
+    }
+    .body{
+        margin: 0rem 2rem;
+    }   
+    .skills .skillsDiv .SkillContanier{
+        height: 21rem;
+        margin: 1rem;
+    }
+    .education .educationDetail .main .upperDiv{
+        display: flex;
+        padding: 1rem 1.5rem;
+    }
+    .projects .projectContainer .projectItem{
+        width: 28%;
+        height: 30rem;
+        margin: .5 1.2rem;
+    }
+    .projects .projectContainer .projectItem img{
+        width: 100%;
+        height: 9rem;
+        background-color: wheat;
+    }
+    .projects .projectContainer .projectItem .content{
+        padding: 0;
+        padding-top: .5rem;
+    }
+    .projects .projectContainer .projectItem .content .detail h2{
+        margin: 1rem .5rem;
+    }
+    .projects .projectContainer .projectItem .content .detail p{
+        margin: .5rem;
+    }
+}
+
+@media (max-width:870) and (min-width:600){
+    .header{
+        justify-content: space-around;
+    }
+    .header .headerLogo{
+        border: 1px solid white;
+        margin: 1rem 1.5rem;    
+    }
+    .header .headerLogo img{
+        width: 2rem;
+    }
+    .header .Btn{
+        margin: 0rem;
+    }
+    .header .Btn .btn{
+        display: none;
+    }
+    .header .navList{
+        margin: 0;
+    }
+    .header .navList ul{
+        font-size: 1.4rem;
+    }
+    .header .navList ul li{
+        padding: 0 0.75rem;  
+    }
+    .header .Btn img{
+        display:inline-block;
+    }
+    .heroSection .left .content{
+        padding: 1%;
+        width: 90%;
+    }
+    .heroSection .rigth video{
+        margin-top: 12%;
+        width: 85%;
+        height: 10rem;
+        margin-left: 10%;
+    }
+    .heroSection .left .content .about{
+        font-size: 100%;
+        margin-top: 0.30rem;
+    }
+    .heroSection .left p{
+        font-size: 25px;    
+        margin:2% 0 0 8%;
+    }
+    .heroSection .left p .special{
+        font-size: 25px;    
+    }
+    .body{
+        margin: 0rem 3rem;
+    }
+    .skills .skillsDiv .SkillContanier{
+        width: 36.5%;
+        height: fit-content;
+        padding: 1rem;
+    }
+    .education .educationDetail .main{
+        width: 80%;
+    }
+    .projects .projectContainer .projectItem{
+        width: 42.8%;
+        margin: 1rem;
+    }
+    .projects .projectContainer .projectItem .content{
+        padding: .5rem;
+    }
+    .contact .form .wrepper{
+        width: 65%;
+    }
+    .footer .footerDiv{
+        width: 100%;
+    }
+}
+
+@media (max-width:600){
+    .header .headerLogo{
+        border: 1px solid white;
+        margin: 0.75rem 1.5rem;    
+    }
+    .header .headerLogo img{
+        width: 2rem;
+    }
+    .header .Btn{
+        display: none;
+    }
+    .header .navList{
+        display: none;
+    }
+    .heroSection{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+     .heroSection .rigth{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+
+    }
+    .heroSection .left{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .heroSection .rigth video{
+        width: 100%;
+        height: 13rem;
+        margin: 0%;
+        padding: 0%;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        border-bottom: 2px solid rgb(255, 196, 0);
+        box-shadow: 0 0 5px rgb(250, 197, 22);
+    }
+    .heroSection .left .content{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .heroSection .left .content .about{
+        font-size: 1rem;
+        word-spacing: 2px;
+        letter-spacing: .5px;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+    .heroSection .left p{
+        color: white;
+        font-size: 30px;    
+        margin: 0;
+        margin: .25rem 1rem;
+    }
+    .heroSection .left p .special{
+        color: rgb(255, 196, 0);
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .body{
+        margin: 0rem 2rem;
+        padding-bottom: 1rem;
+    }
+    .heading{
+        font-size: 1rem;
+        padding: 5% 0rem;
+        color: white;
+    }
+    .heading p{
+        margin: 3% 0;
+    }
+    .skills .skillsDiv .SkillContanier{
+        width: 100%;
+        height: fit-content;
+        margin: 5% 2%;
+        padding: 4% 7%;
+    }
+    .skills .skillsDiv .SkillContanier .skillHeading{
+        font-size: 2rem;
+    }
+    .skills .skillsDiv .SkillContanier .skillList{
+        margin-top: 5%;
+    }
+    .education .educationDetail .main{
+        width: 100%;
+        margin: 1rem 0;
+        overflow: hidden;
+    }
+    .education .educationDetail .main .upperDiv{
+        padding: 1rem .5rem .5rem 1rem;
+    }
+    .education .educationDetail .main .upperDiv .detail h2{
+        font-size: 20px;
+    }
+    .projects .projectContainer .projectItem{
+        width: 80%;
+        height:27.7rem;
+        margin: 1rem 0;
+    }
+    .projects .projectContainer .projectItem img{
+        width: 100%;
+        height: 9rem;
+    }
+    .projects .projectContainer .projectItem .content{
+        padding: 1rem;
+    }
+    .projects .projectContainer .projectItem .content .detail h2{
+        margin: .5rem 0;
+        color: white;
+    }
+    .projects .projectContainer .projectItem .content .detail p{
+        color: rgb(219, 209, 209);
+        padding-bottom: 1rem;
+        letter-spacing: 0.5px;
+    }
+    .contact .form .wrepper{
+        margin: 0 0 1rem 0;
+        width: 75%;
+    }
+    .contact .form .wrepper form button{
+        width: 102.5%;
+    }
+    .footer .footerDiv{
+        width: 100%;
+        margin: 5rem 0 2rem 0;
+    }
+    .footer .footerDiv div ul li{
+        text-align: center;
+    }
+} 
