@@ -12,7 +12,7 @@ const Project = ()=>{
                 {
                     detail.projects.map((res)=>{
                         return (
-                            <div className='projectItem'>
+                            <div key={res.id} className='projectItem'>
                                 <div className='img'>
                                     <img src={res.img} alt="" />
                                 </div>
@@ -21,7 +21,7 @@ const Project = ()=>{
                                         {
                                             res.langauages.map((res)=>{
                                                 return (
-                                                    <div className='item'>{res}</div>
+                                                    <div key={res} className='item'>{res}</div>
                                                 )
                                             })
                                         }

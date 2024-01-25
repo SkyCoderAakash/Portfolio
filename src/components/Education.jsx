@@ -12,7 +12,7 @@ const Eduction = ()=>{
                 {
                     detail.education.map((res)=>{
                         return (
-                            <div className='main'>
+                            <div key={res.grade} className='main'>
                                 <div className="upperDiv">
                                     <div className='img'>
                                         <img src={res.img} alt="" />

@@ -138,18 +138,21 @@ const detail = {
         ],
         projects : [
             {
+                id : 1,
                 img : '',
                 langauages : ['HTML','CSS','Javascript','Node js','Express js','React','Redux','MongoDB'],
                 name : 'Demo 123',
                 info : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veniam quisquam aut! Alias quisquam, ipsa est id voluptas maiores, voluptatibus sint iure commodi aperiam atque tempore tempora cum totam reiciendis ',
             },
             {
+                id : 2,
                 img : '',
                 langauages : ['HTML','CSS','Javascript','Node js','Express js','React','Redux','MongoDB'],
                 name : 'Demo 123',
                 info : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veniam quisquam aut! Alias quisquam, ipsa est id voluptas maiores, voluptatibus sint iure commodi aperiam atque tempore tempora cum totam reiciendis ',
             },
             {
+                id : 3,
                 img : '',
                 langauages : ['HTML','CSS','Javascript','Node js','Express js','React','Redux','MongoDB'],
                 name : 'Demo 123',

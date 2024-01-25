@@ -13,13 +13,13 @@ const Skills = ()=>{
                 {
                     skills.map((res)=>{
                         return (
-                            <div className='SkillContanier'>
+                            <div key={res.title} className='SkillContanier'>
                                 <h5 className='skillHeading'>{res.title}</h5>
                                 <div className='skillList'>
                                     {
                                         res.skill.map((res)=>{
                                             return(
-                                                <div className='skillItem'>
+                                                <div key={res.name} className='skillItem'>
                                                     <img src={res.img} alt="" />
                                                     <span>{res.name}</span>
                                                 </div>

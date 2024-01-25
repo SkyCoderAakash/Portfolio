@@ -1,6 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import { heroImg,detail } from '../../utils/constants';
+import { detail } from '../../utils/constants';
+// import bgVideo from '../../public/video/hero_v.webm'
 
 const HeroSection = ()=>{
     const {name,about} = detail?.personalDetails;
@@ -8,9 +9,9 @@ const HeroSection = ()=>{
         <div className='heroSection' id='about'>
             <div className='rigth heroDiv'>
                 <div className="rightContent">
-                    <video controls> <source src='../../public/video/hero_v.webm' type="video/mp4" /> </video>
+                    <video controls autoPlay loop> <source src='../../public/video/hero_v.webm' type="video/mp4" /> </video>
+                    {/* <video src={bgVideo} /> */}
                 </div>
-                {/* <img src={heroImg} alt="img logoo" /> */}
             </div>
             <div className='left heroDiv'>
                 <div className='content'>
