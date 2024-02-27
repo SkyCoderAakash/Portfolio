@@ -1,5 +1,6 @@
 import React from 'react';
-import {detail} from '../../utils/constants.js'
+import {detail} from '../../utils/constants.js';
+
 
 const Eduction = ()=>{
     return(

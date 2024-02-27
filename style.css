@@ -110,12 +110,14 @@
     color: white;
     background-color:rgb(44, 32, 3);
     padding: 2rem 0;
+    z-index: 9;
 }
 .mobile-menu li{
     font-size: 2rem;
     align-items: center;
     padding: 1rem;
     background-color:rgb(44, 32, 3);
+    z-index: 9;
 }
 
 /* css end for header or navbar */
@@ -127,7 +129,8 @@
     height: fit-content;
     justify-content: space-around;
     margin-top: 3rem;
-    z-index: 5;
+    z-index: 10;
+    /* position: relative; */
 }
 .heroSection .rigth{
     width: 45%;
@@ -148,7 +151,7 @@
 
 .heroSection .left .content .about{
     font-size: 1.5rem;
-    word-spacing: 2px;
+    word-spacing: 0.75px;
     letter-spacing: .8px;
     margin-top: 1rem ;
 }

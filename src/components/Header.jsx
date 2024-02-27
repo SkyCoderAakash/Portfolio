@@ -43,6 +43,8 @@ const Header = ()=>{
                         <Link onClick={clickHandle} to="skill" smooth={true} duration={500}><li>Skills</li></Link>
                         <Link onClick={clickHandle} to="project" smooth={true} duration={500}><li>Projects</li></Link>
                         <Link onClick={clickHandle} to="contact" smooth={true} duration={500}><li>Contact</li></Link>
+                        <Link to="https://www.linkedin.com/in/aakash-prajapati-b41648296/" smooth={true} duration={500}><li>LinkedIn</li></Link>
+                        <Link to='https://github.com/SkyCoderAakash' smooth={true} duration={500}><li>Github</li></Link>
                     </ul>
                 </div>
             </div>

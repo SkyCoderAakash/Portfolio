@@ -6,7 +6,7 @@ const Project = ()=>{
         <div className='projects' id='project'>
             <div className='heading'>
                 <h1 align="center">Projects</h1>
-                <p align="center">I worked of many framework, Here are some of my Projects</p>
+                <p align="center">I worked of many Projects and learnt a lot of things. Here are some of my Projects</p>
             </div>
             <div className="projectContainer">
                 {

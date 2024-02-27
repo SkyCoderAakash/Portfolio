@@ -1,6 +1,5 @@
 import bootstrapImg from '../public/images/bootstrap.jpg'
 import cssImg from '../public/images/css.png'
-import dockerImg from '../public/images/docker.png'
 import expressjsImg from '../public/images/expressjs.png'
 import firebaseImg from '../public/images/firebase.png'
 import githubImg from '../public/images/github.png'
@@ -9,10 +8,8 @@ import htmlImg from '../public/images/html.png'
 import javascript from '../public/images/javascript.png'
 import linkedinImg from '../public/images/linkedin.png'
 import mongoDBImg from '../public/images/mongodb.png'
-import mysqlImg from '../public/images/mysql.png'
 import netlifyImg from '../public/images/netlify.png'
 import nodejsImg from '../public/images/nodejs.png'
-import pythonImg from '../public/images/python.png'
 import reactImg from '../public/images/react.png'
 import reduxImg from '../public/images/redux.png'
 import tailwindImg from '../public/images/tailwind.png'
@@ -22,14 +19,6 @@ const skills = [
     {
     title:"Frontend",
     skill : [
-        {
-            name:"React",
-            img:reactImg
-        },
-        {
-            name:"Redux",
-            img:reduxImg
-        },
         {
             name:"HTML",
             img:htmlImg
@@ -50,6 +39,14 @@ const skills = [
             name:"Tailwind css",
             img:tailwindImg
         },
+        {
+            name:"React",
+            img:reactImg
+        },
+        {
+            name:"Redux",
+            img:reduxImg
+        }
     ]
     },
     {
@@ -62,14 +59,6 @@ const skills = [
             {
                 name:"Express Js",
                 img:expressjsImg
-            },
-            {
-                name:"Python",
-                img:pythonImg
-            },
-            {
-                name:"MySql",
-                img:mysqlImg
             },
             {
                 name:"MongoDB",
@@ -88,10 +77,10 @@ const skills = [
                 name:"GitHub",
                 img:githubImg
             },
-            {
-                name:"Docker",
-                img:dockerImg
-            },
+            // {
+            //     name:"Docker",
+            //     img:dockerImg
+            // },
             {
                 name:"Netlify",
                 img:netlifyImg
@@ -140,25 +129,29 @@ const detail = {
             {
                 id : 1,
                 img : '',
-                langauages : ['HTML','CSS','Javascript','Node js','Express js','React','Redux','MongoDB'],
-                name : 'Demo 123',
-                info : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veniam quisquam aut! Alias quisquam, ipsa est id voluptas maiores, voluptatibus sint iure commodi aperiam atque tempore tempora cum totam reiciendis ',
+                link : "",
+                langauages : ['HTML','CSS','Node JS','Express JS','MongoDB'],
+                name : 'FarmToTable',
+                info : 'A fully responsive website where user can Register with unique email and Login. User can add Item to his cart and increase, decrease, delete item from cart. It also has admin panel only access by admin where admin can add, delete, edit and get all product.',
             },
             {
                 id : 2,
                 img : '',
-                langauages : ['HTML','CSS','Javascript','Node js','Express js','React','Redux','MongoDB'],
-                name : 'Demo 123',
-                info : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veniam quisquam aut! Alias quisquam, ipsa est id voluptas maiores, voluptatibus sint iure commodi aperiam atque tempore tempora cum totam reiciendis ',
+                link : "http://youtube-clone-olive-rho.vercel.app",
+                langauages : ['HTML','Tailwind','JavaScript','React','Redux'],
+                name : 'Youtube Clone',
+                info : 'A fully responsive Youtube clone where user can search any thing. I use debouncing concept in searching which enhance app performance. All data coming from api.',
             },
             {
                 id : 3,
                 img : '',
-                langauages : ['HTML','CSS','Javascript','Node js','Express js','React','Redux','MongoDB'],
-                name : 'Demo 123',
-                info : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veniam quisquam aut! Alias quisquam, ipsa est id voluptas maiores, voluptatibus sint iure commodi aperiam atque tempore tempora cum totam reiciendis ',
+                link : "https://myntflix.netlify.app",
+                langauages :['HTML','Tailwind','JavaScript','React','Redux'],
+                name : 'NetFlix Clone',
+                info : 'A fully responsive Netflix clone where user can watch movies. All data coming from api. It include Register/Login by firebase.',
             },
+            
         ]
     }
 
-export {skills,detail,linkedinImg,gitHubBtn,heroImg};
+export {skills,detail,linkedinImg,gitHubBtn};

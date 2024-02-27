@@ -17,7 +17,7 @@ const HeroSection = ()=>{
                 <div className='content'>
                     <p>Hi, It's me</p>
                     <p><span className='special'>{name}</span>,</p>
-                    <p><Typewriter options={{autoStart:true,loop:true,delay:150,pauseFor:200,strings:['A Full Stack Developer']}}/></p>
+                    <p><Typewriter options={{autoStart:true,loop:true,delay:150,pauseFor:200,strings:['Full stack web developer']}}/></p>
                     <p className='about'>{about}</p>
                 </div>
             </div>

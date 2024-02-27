@@ -2,7 +2,6 @@ import React from 'react';
 import { skills } from '../../utils/constants.js';
 
 const Skills = ()=>{
-    // console.log(data);
     return (
         <div className='skills' id='skill'>
             <div className='heading'>
